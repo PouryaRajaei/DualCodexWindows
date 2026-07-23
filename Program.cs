@@ -12,7 +12,7 @@ internal static class Program
     private static void Main()
     {
         ApplicationConfiguration.Initialize();
-        Application.Run(new MainForm());
+        Application.Run(new ModernMainForm());
     }
 }
 
@@ -29,7 +29,7 @@ internal sealed class MainForm : Form
     {
         var settings = LauncherSettings.Load();
 
-        Text = "Codex Dual Launcher";
+        Text = "Dual Codex";
         ClientSize = new Size(700, 455);
         MinimumSize = new Size(716, 494);
         StartPosition = FormStartPosition.CenterScreen;

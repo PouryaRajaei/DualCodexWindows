@@ -5,8 +5,11 @@
     <UseWindowsForms>true</UseWindowsForms>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <AssemblyName>CodexDualLauncher</AssemblyName>
+    <AssemblyName>Dual Codex</AssemblyName>
+    <Product>Dual Codex</Product>
+    <Title>Dual Codex</Title>
     <RootNamespace>CodexDualLauncher</RootNamespace>
+    <ApplicationIcon>assets\dual-codex.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="assets\injected.js" />
